@@ -4,17 +4,14 @@
 <head>
     <meta charset="utf-8">
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/underscore/underscore.js"></script>
-    <script src="bower_components/ring/ring.js"></script>
     <script src="bower_components/widget/widget.js"></script>
     <script src="bower_components/nunjucks/browser/nunjucks.js"></script>
-    <script src="src/js/myapp.js"></script>
+    <script src="myapp.js"></script>
     <script>
-    $(function() {
+    widget.ready(function() {
         var widget1 = new myapp.Widget1();
 
-        widget1.appendTo($("body"));
+        widget1.appendTo(document.body);
     });
     </script>
 </head>

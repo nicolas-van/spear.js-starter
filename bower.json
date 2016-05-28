@@ -14,6 +14,6 @@
   ],
   "dependencies": {
     "nunjucks": "~1.3.4",
-    "widget": "0.6.0"
+    "widget": "1.0.0"
   }
 }
