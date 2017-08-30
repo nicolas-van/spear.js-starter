@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "nunjucks": "^3.0.1",
-    "widgetjs": "^1.2.2"
+    "widgetjs": "^1.2.3"
   }
 }
